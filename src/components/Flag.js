@@ -51,7 +51,7 @@ const Flag = styled.a`
     `};
 `
 Flag.defaultProps = {
-  href: 'https://hackclub.com/',
+  href: 'https://hackclub.lachlanjc.com/',
   'aria-label': 'Homepage'
 }
 
