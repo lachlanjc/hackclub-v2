@@ -115,12 +115,12 @@ const Footer = ({ dark = false, children, ...props }) => (
             Hack Club
           </Heading.h2>
           <Pages>
-            <a href="https://hackclub.com/slack/" children="Slack" />
+            <a href="/slack/" children="Slack" />
             <Link to="/donate/" children="Donate" />
             <Link to="/team/" children="Team" />
             <Link to="/philosophy/" children="Philosophy" />
-            <a href="https://hackclub.com/brand/" children="Branding" />
-            <a href="https://hackclub.com/press/" children="Press Inquiries" />
+            <a href="/brand/" children="Branding" />
+            <a href="/press/" children="Press Inquiries" />
           </Pages>
         </Box>
         <Box>
@@ -133,10 +133,10 @@ const Footer = ({ dark = false, children, ...props }) => (
               children="Code of Conduct"
             />
             <a href="https://events.hackclub.com/" children="Events" />
-            <a href="https://workshops.hackclub.com/" children="Workshops" />
+            <a href="https://hackclub-w.lachlanjc.com/" children="Workshops" />
             <a href="https://hackathons.hackclub.com/" children="Hackathons" />
             <Link to="/bank/" children="Bank" />
-            <a href="https://hackclub.com/map/" children="Clubs Map" />
+            <a href="/map/" children="Clubs Map" />
           </Pages>
         </Box>
         <Box>
