@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Hack Club',
-    siteUrl: 'https://hackclub.com'
+    siteUrl: 'https://hackclub.lachlanjc.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,15 +10,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://hackclub.com'
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-fathom',
-      options: {
-        trackingUrl: 'aardvark.hackclub.com',
-        siteId: 'OGIMJEFA',
-        whitelistHostnames: ['hackclub.com']
+        siteUrl: 'https://hackclub.lachlanjc.com'
       }
     }
   ]
